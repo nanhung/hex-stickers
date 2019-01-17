@@ -26,4 +26,4 @@ sticker(expression(pksim(y, legend =F, bty="n", frame.plot=TRUE, axes=F)),
         h_fill = col_bg, h_color = col_border, h_size = 1.8,
         url = "github.com/nanhung/pksensi", 
         u_color = col_border, u_size = 1,
-        filename="pksensi.png")
+        filename="PNG/pksensi.png")
