@@ -19,11 +19,11 @@ col_bg <- "#ECECEC"
 col_border <- "#800000"
 col_text <- "#800000"    ##  carrara
 
-
 sticker(expression(pksim(y, legend =F, bty="n", frame.plot=TRUE, axes=F)),
         package="pksensi", p_family = "Aller_BdIt",
         p_y = 1.4, p_size=9, p_color = col_text,
         s_y= 0.6, s_x= 0.75, s_width=2.2, s_height=1.6,
         h_fill = col_bg, h_color = col_border, h_size = 1.8,
-        u_color = col_border,
+        url = "github.com/nanhung/pksensi", 
+        u_color = col_border, u_size = 1,
         filename="pksensi.png")
